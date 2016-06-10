@@ -7,7 +7,7 @@
             return {
                 scope: {
                     data: '=',
-                    options: '@',
+                    options: '=',
                     responsiveOptions: '@',
                     type: '@',
                     id: '@',
