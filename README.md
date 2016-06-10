@@ -1,4 +1,4 @@
-# chartistAngularDirective [![Build Status](https://travis-ci.org/gruberb/chartistAngularDirective.svg?branch=master)](https://travis-ci.org/gruberb/chartistAngularDirective) [![npm installs](https://img.shields.io/npm/dm/chartist-angular-directive.svg?style=flat)](https://github.com/gruberb/chartistAngularDirective) [![Code Climate](https://codeclimate.com/github/gruberb/chartistAngularDirective/badges/gpa.svg)](https://codeclimate.com/github/gruberb/chartistAngularDirective)
+# chartistAngularDirective
 
 
 A directive to easily integrate chartist graphs into Angular 1.x applications.
@@ -6,9 +6,9 @@ Chartist is a open source graph framework and has to be added to your app as wel
 
 ## Install
 
-Requires [Chartist.js](https://gionkunz.github.io/chartist-js/)
+Requires [Chartist.js](https://gionkunz.github.io/chartist-js/).
 
-
+Add the file src/chartistAngularDirective.js where you store your project directives.
 
 ## HowTo
 Insert the directive in your HTML file:
