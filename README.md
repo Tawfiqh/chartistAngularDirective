@@ -14,14 +14,13 @@ Add the file src/chartistAngularDirective.js where you store your project direct
 Insert the directive in your HTML file:
 
 ```html
-<exg-chartist id='graph_id' class="ct-chart" data='data' options='{{options}}' type='{{chartType}}' tooltips='true'></exg-chartist>
+<exg-chartist id='graph_id' class="ct-chart" data='data' options='{{options}}' type='{{chartType}}'></exg-chartist>
 ```
 - id: set manually
 - class: set ct-chart to get the chartist CSS
 - data: set inside controller via $scope.data
 - options: set via $scope.options inside the controller
 - type: set via $scope.chartType inside controller
-- tooltips: Set a parameter, which one doesn't matter.
 
 ```js
  scope.data = {
